@@ -26,7 +26,7 @@
 </tr>
 <tr>
 <td>Mobile No.</td>
-<td><input type="text" name="mobile_no" /></td>
+<td><input type="text" name="mobile_no" maxlength="10" /></td>
 <td><mvc:errors path="mobile_no" cssClass="formFieldError"/></td>
 </tr>
 <tr>
